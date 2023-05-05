@@ -16,6 +16,6 @@ install:
 
 build_script:
 
-  chmod +x gradlew
+  - chmod +x gradlew
   
   - ./gradlew test --info
